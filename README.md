@@ -1,7 +1,11 @@
 # Apache-Server
 [绑定指定地址与端口](http://httpd.apache.org/docs/2.4/bind.html)
-
+1. IPv6 addresses must be enclosed in square brackets, as in the following example:
+```
+Listen [2001:db8::a00:20ff:fea7:ccea]:80
+```
 [配置文件](http://httpd.apache.org/docs/2.4/configuring.html)
+1. 配置文件中的指令可能适用于整个服务器，或者它们可能仅限于应用于特定的目录、文件、主机或URL。本文档描述了如何使用配置节的容器或.htaccess文件更改其他配置指令的范围。
 
 [配置片段](http://httpd.apache.org/docs/2.4/sections.html)
 
